@@ -22,35 +22,81 @@
 </head>
 
 <body>
-    <main>
 
-        <div class="container-fluid">
-            <header>
-                <h1>Detalle</h1>
-            </header>
+
+    <div class="container-fluid">
+        <header>
+            <h1>Detalle</h1>
+        </header>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">El tiempo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./detalle.html">Detalles</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="./index.html">El tiempo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./detalle.html">Detalles</a>
-                        </li>
+    </nav>
 
+    <main class="container">
+        <section class="row">
+            <div class="col col-lg-8">
+                <h1>El tiempo en:</h1>
+
+                <!--Card horizontal-->
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <i class="bi bi-sun" style="font-size: 80px;"></i>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">Colbún</h2>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Soleado</li>
+                                    <li class="list-group-item">Temperatura: 27°C</li>
+                                    <li class="list-group-item">Humedad: 58%</li>
+                                    <li class="list-group-item">Viento: Medio 7 km/h </li>
+                                </ul>
+                                <p class="card-text"><small class="text-body-secondary"> Última actualización hace 3
+                                        minutos
+                                    </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card horizontal-->
+                </div>
+            </div>
+            <div class="col col-lg-4">
+                <h3>Pronóstico semanal</h3>
+
+                <!--Card pronóstico-->
+                <div class="card container">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item "> <i class="bi bi-sun"></i>Lunes 27°C</li>
+                        <li class="list-group-item "> <i class="bi bi-sun"></i>Martes 24°C</li>
+                        <li class="list-group-item "><i class="bi bi-sun"></i>Miercoles 25°C</li>
+                        <li class="list-group-item "><i class="bi bi-sun"></i>Jueves 27°C</li>
+                        <li class="list-group-item "><i class="bi bi-sun"></i>Viernes 26°C</li>
+                        <li class="list-group-item "><i class="bi bi-sun"></i>Sabado 24°C</li>
+                        <li class="list-group-item "><i class="bi bi-cloud-sun"></i>Domingo 22°C</li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </section>
     </main>
-
     <!--Footer-->
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
