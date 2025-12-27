@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/base/_base.scss","../scss/layout/_footer.scss","../scss/abstracts/_mixins.scss","../scss/abstracts/_variables.scss","../scss/components/_card.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACAJ;EACI;EACA;EACA;;AACA;ECNA;EACA;EACA;;ADMI;EACJ,OENW;;;ACDb;EACE;EACA,ODLa;ECMb,kBDFW","file":"main.css"}
