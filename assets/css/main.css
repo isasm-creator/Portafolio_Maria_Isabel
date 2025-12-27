@@ -15,13 +15,26 @@ a {
   align-items: center;
 }
 .footer .navigation__item {
-  color: #4a5759;
+  color: #01161e;
 }
 
+.card {
+  background-color: #edf6f9;
+}
 .card__icon {
   font-size: 40px;
   color: #f4e04d;
-  background-color: #4a5759;
+  background-color: #61a5c2;
+}
+.card__icon--2 {
+  font-size: 40px;
+  color: #dedbd2;
+  background-color: #61a5c2;
+}
+.card__icon--3 {
+  font-size: 40px;
+  color: #e7ecef;
+  background-color: #61a5c2;
 }
 
 /*# sourceMappingURL=main.css.map */

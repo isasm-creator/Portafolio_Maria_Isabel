@@ -8,7 +8,7 @@
     .navigation {
         @include mixins.flex-layout-center;
         &__item {
-    color: variables.$weather-iron;
+    color: variables.$weather-ink;
     }
         }
         
