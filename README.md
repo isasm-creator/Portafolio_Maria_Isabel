@@ -5,17 +5,24 @@
 ## Estructura de carpetas
 
 Portafolio_Clima_Maria Isabel Soto/
-├── index.html
-├── detalle.html
-├── assets/
-│ ├── css/  
-│ ├── scss/  
-│ │ ├── abstracts/
-│ │ ├── base/
-│ │ ├── components/
-│ │ └── layout/
-│ └── images/
-└── README.md
+--- index.html
+--- detalle.html
+
+--- assets/
+-- css/  
+-- img/
+-- js/
+-- scss/
+
+---- abstracts/
+---- base/
+---- components/
+---- layout/
+---- pages/
+---- themes/
+---- vendors/
+
+--- README.md
 
 ## Metodología de estilos
 
