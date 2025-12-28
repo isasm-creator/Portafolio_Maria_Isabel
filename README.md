@@ -1,8 +1,29 @@
-# Proyecto de portafolio - Módulo 2
+# Proyecto de Clima - Módulo 3
 
-Desarrollar la primera versión del frontend de una aplicación de clima, aplicando **HTML5 semántico**, **Bootstrap** para estilos y **diseño responsivo**, y **JavaScript** básico para la interacción. El trabajo se versiona en **Git/GitHub** e incluye un **README** descriptivo.
+Esta el la tercera versión del frontend de una aplicación de clima, desarrollada en el **Módulo 3**. Permite ver el clima actual en distintas localidades y acceder a una **vista de detalle** con pronóstico semanal aplicando **HTML5 semántico**, **SASS** con metodología BEM, **Bootstrap** para estilos y **diseño responsivo**, y **JavaScript** básico para la interacción. El trabajo se versiona en **Git/GitHub** e incluye un **README** descriptivo.
 
----
+## Estructura de carpetas
+
+Portafolio_Maria_Isabel/
+├── index.html # Página principal con listado de localidades
+├── detalle.html # Vista de detalle del clima
+├── assets/
+│ ├── css/ # CSS compilado desde SASS
+│ ├── scss/ # Archivos SASS
+│ │ ├── abstracts/ # Variables, mixins
+│ │ ├── base/ # Estilos base (reset, tipografía)
+│ │ ├── components/ # Cards, botones, navbar
+│ │ └── layout/ # Header, footer, grid
+│ └── images/ # Imágenes y íconos
+└── README.md # Este archivo
+
+## Metodología de estilos
+
+Se utiliza **BEM (Block, Element, Modifier)** para nombrar clases y mantener consistencia:
+
+- **Block**: `card` - componente independiente que representa una tarjeta de clima.
+- **Element**: `card__icon` - icono que pertenece al bloque card.
+- **Modifier**: `card__icon--sun`, `card__icon--cloudy`,`card__icon--rain`- variantes visuales del icono según el estado del clima.
 
 ## Aplicación del tiempo
 

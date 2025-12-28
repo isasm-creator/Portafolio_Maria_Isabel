@@ -23,18 +23,16 @@ a {
 }
 .card__icon {
   font-size: 40px;
+  background-color: #61a5c2;
+}
+.card__icon--sun {
   color: #f4e04d;
-  background-color: #61a5c2;
 }
-.card__icon--2 {
-  font-size: 40px;
+.card__icon--cloudy {
   color: #dedbd2;
-  background-color: #61a5c2;
 }
-.card__icon--3 {
-  font-size: 40px;
+.card__icon--rain {
   color: #e7ecef;
-  background-color: #61a5c2;
 }
 
 /*# sourceMappingURL=main.css.map */

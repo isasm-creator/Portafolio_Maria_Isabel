@@ -1,21 +1,23 @@
 @use '../abstracts/variables';
-
+//Card de clima, estructurado con la metodologia BEM
 .card { 
   background-color: variables.$weather-alice;
-
   &__icon {
     font-size: 40px;
+    background-color: variables.$weather-pacific;
+
+  &--sun {
     color: variables.$weather-banana;
-    background-color: variables.$weather-pacific ;
   }
-  &__icon--2 {
-    font-size: 40px;
+
+  &--cloudy {
     color: variables.$weather-dust;
-    background-color: variables.$weather-pacific;
+
   }
-  &__icon--3 {
-    font-size: 40px;
+
+  &--rain {
     color: variables.$weather-platinum;
-    background-color: variables.$weather-pacific;
+
   }
-}
+  }
+  }
