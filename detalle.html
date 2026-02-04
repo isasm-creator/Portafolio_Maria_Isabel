@@ -19,19 +19,18 @@
         crossorigin="anonymous"></script>
 
     <!--Mi JS-->
-    <script defer src="./assets/js/detalle.js"></script>
+    <script defer type="module" src="./assets/js/detalle.js"></script>
 
 
 </head>
 
 <body>
-
-
-    <div class="container-fluid">
+    <!--Header
+    <div class="container">
         <header>
             <h1>Detalle</h1>
         </header>
-    </div>
+    </div> -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="./index.html">El tiempo</a>
@@ -45,7 +44,7 @@
                         <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./detalle.html">Detalles</a>
+                        <a class="nav-link" href="./detalle.html">Detalle</a>
                     </li>
 
                 </ul>
@@ -53,18 +52,18 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="container my-4">
         <section class="row">
-            <div class="col col-lg-8">
+            <div class="col col-lg-8" id="lugar">
                 <h1>El tiempo en:</h1>
 
-                <!--Card horizontal-->
+                <!--Card horizontal
                 <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center">
                             <i class="bi bi-sun" style="font-size: 80px;"></i>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h2 class="card-title">Colbún</h2>
                                 <ul class="list-group list-group-flush">
@@ -78,9 +77,9 @@
                                     </small></p>
                             </div>
                         </div>
-                    </div>
-                    <!--Card horizontal-->
-                </div>
+                    </div> -->
+                <!--Card horizontal-->
+            </div>
             </div>
             <div class="col col-lg-4">
                 <h3>Pronóstico semanal</h3>
