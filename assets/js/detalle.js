@@ -16,7 +16,7 @@ const ICONOS = {
   Soleado: 'bi-brightness-high',
   Nublado: 'bi-cloudy-fill',
   Lluvioso: 'bi-cloud-rain-heavy',
-  'Parcialmente nublado': 'bi-cloud-sun',
+  'Parcialmente Nublado': 'bi-cloud-sun',
 };
 
 // 1. Obtener ID enviado por parámetros de la URL
@@ -78,3 +78,16 @@ const mostrarLugar = () => {
 };
 
 mostrarLugar();
+// Mostrar sección de pronóstico semanal
+const pronosticoContainer = document.getElementById('pronosticoSemanal');
+// console.log(ciudadActual.pronosticoSemanal);
+ciudadActual.pronosticoSemanal.forEach((dia) => {
+  const content = `
+              <li class="list-group-item">
+                <i class="bi ${ICONOS[dia.estado]}"></i> ${dia.dia}: ${
+    dia.max
+  }°C
+              </li>
+  `;
+  pronosticoContainer.innerHTML += content;
+});

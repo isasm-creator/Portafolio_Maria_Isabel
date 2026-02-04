@@ -16,20 +16,20 @@ const lugares = [
       },
       {
         dia: 'Martes',
-        min: 16,
-        max: 25,
-        estado: 'Soleado',
+        min: 14,
+        max: 17,
+        estado: 'Nublado',
       },
       {
         dia: 'Miercoles',
         min: 17,
-        max: 29,
-        estado: 'Soleado',
+        max: 20,
+        estado: 'Parcialmente Nublado',
       },
       {
         dia: 'Jueves',
         min: 18,
-        max: 28,
+        max: 20,
         estado: 'Soleado',
       },
       {
@@ -72,15 +72,15 @@ const lugares = [
       },
       {
         dia: 'Miércoles',
-        min: 17,
-        max: 29,
-        estado: 'Soleado',
+        min: 12,
+        max: 17,
+        estado: 'Lluvioso',
       },
       {
         dia: 'Jueves',
-        min: 18,
-        max: 28,
-        estado: 'Soleado',
+        min: 14,
+        max: 19,
+        estado: 'Parcialmente Nublado',
       },
       {
         dia: 'Viernes',
@@ -97,7 +97,7 @@ const lugares = [
       {
         dia: 'Domingo',
         min: 16,
-        max: 26,
+        max: 23,
         estado: 'Soleado',
       }
     ]
