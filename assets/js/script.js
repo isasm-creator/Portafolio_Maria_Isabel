@@ -285,7 +285,7 @@ const ICONOS = {
   Soleado: 'bi-sun',
   Nublado: 'bi-cloud',
   Lluvioso: 'bi-cloud-rain',
-  ParcialmenteNublado: 'bi-cloud-sun',
+  'Parcialmente Nublado': 'bi-cloud-sun', // Agregar comillas para clave con espacio
 };
 
 //Mostrar lugares en el index

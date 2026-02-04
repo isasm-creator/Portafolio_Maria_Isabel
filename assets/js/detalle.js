@@ -270,5 +270,19 @@ const ICONOS = {
   Soleado: 'bi-sun',
   Nublado: 'bi-cloud',
   Lluvioso: 'bi-cloud-rain',
-  ParcialmenteNublado: 'bi-cloud-sun',
+  'Parcialmente Nublado': 'bi-cloud-sun',
 };
+//obtener el id del lugar desde la URL
+const urlParams = new URLSearchParams(window.location.search);
+
+//Extraer el id de los parametros
+const locationId = urlParams.get('id');
+
+//Console.log(locationId); //para verificar que se obtiene el id correctamente
+
+// 2.filtrar el lugar del array lugares que coincida con el id obtenido de la URL
+const lugarEncontrado = lugares.find((lugar) => {
+    console.log('Buscando en array lugares el lugar con id: ${locationId');
+    return lugar.id === locationId;
+});
+console.log(lugarEncontrado); //para verificar que se encuentra el lugar correctamente
