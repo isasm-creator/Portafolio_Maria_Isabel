@@ -5,24 +5,23 @@
 ## Estructura de carpetas
 
 Portafolio_Clima_Maria Isabel Soto/
---- index.html
---- detalle.html
+- index.html
+- detalle.html
 
---- assets/
--- css/  
--- img/
--- js/
--- scss/
+- assets/
+- css/  
+- img/
+- js/
+- scss/
 
----- abstracts/
----- base/
----- components/
----- layout/
----- pages/
----- themes/
----- vendors/
+-- abstracts/
+-- base/
+-- components/
+-- layout/
+-- pages/
+-- themes/
+-- vendors/
 
---- README.md
 
 ## Metodología de estilos
 
@@ -112,3 +111,19 @@ links.forEach(function (link) {
   }
 });
 ```
+
+Modelado de datos
+ - Definir en JavaScript un arreglo de lugares donde cada lugar sea un objeto con al menos:
+ - id, nombre, tempActual, estadoActual
+ - pronosticoSemanal: arreglo de objetos (cada objeto será un día de la semana) con dia, min, max y estado
+Variables, condicionales, ciclos y funciones
+ - Utilizar variables y constantes para guardar datos intermedios (suma de temperaturas, contadores, etc.).
+ - Utilizar ciclos (for, while o similar) para recorrer el pronóstico semanal y:
+ - Calcular mínimo, máximo y promedio:
+ - Contar cuántos días hay de cada tipo de clima.
+ - Utilizar condicionales (if, else if, else) para:
+ - Evaluar estados del tiempo (ej.: si hay más días soleados que nublados → “Semana mayormente soleada”).
+ - Generar el resumen textual de la semana.
+ - Definir al menos dos funciones:
+ - Una función para buscar y obtener el objeto lugar a partir de un id o nombre.
+ - Una función para calcular estadísticas a partir del pronosticoSemanal  de un lugar y devolver un objeto con los resultados.
