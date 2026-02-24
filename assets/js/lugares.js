@@ -5,14 +5,14 @@ const lugares = [
   {
     id: 1,
     nombre: 'Colbún',
-    tempActual: 27,
-    estadoActual: 'Soleado',
+    tempActual: 15,
+    estadoActual: 'Parcialmente nublado',
     pronosticoSemanal: [
       {
         dia: 'Lunes',
-        min: 18,
-        max: 28,
-        estado: 'Soleado',
+        min: 11,
+        max: 15,
+        estado: 'Parcialmente nublado',
       },
       {
         dia: 'Martes',
@@ -24,19 +24,19 @@ const lugares = [
         dia: 'Miercoles',
         min: 17,
         max: 20,
-        estado: 'Parcialmente Nublado',
+        estado: 'Parcialmente nublado',
       },
       {
         dia: 'Jueves',
-        min: 18,
-        max: 20,
-        estado: 'Soleado',
+        min: 13,
+        max: 15,
+        estado: 'Lluvioso',
       },
       {
         dia: 'Viernes',
         min: 14,
         max: 25,
-        estado: 'Soleado',
+        estado: 'Parcialmente nublado',
       },
       {
         dia: 'Sabado',
@@ -48,14 +48,14 @@ const lugares = [
         dia: 'Domingo',
         min: 16,
         max: 26,
-        estado: 'Soleado',
+        estado: 'Parcialmente nublado',
       }
     ]
   },
     {
     id: 2,
     nombre: 'Talca',
-    tempActual: 27,
+    tempActual: 28,
     estadoActual: 'Soleado',
     pronosticoSemanal: [
       {
@@ -80,7 +80,7 @@ const lugares = [
         dia: 'Jueves',
         min: 14,
         max: 19,
-        estado: 'Parcialmente Nublado',
+        estado: 'Nublado',
       },
       {
         dia: 'Viernes',
@@ -105,7 +105,7 @@ const lugares = [
       {
     id: 3,
     nombre: 'Curicó',
-    tempActual: 27,
+    tempActual: 28,
     estadoActual: 'Soleado',
     pronosticoSemanal: [
       {
@@ -212,7 +212,7 @@ const lugares = [
       {
         dia: 'Lunes',
         min: 18,
-        max: 28,
+        max: 26,
         estado: 'Soleado',
       },
       {

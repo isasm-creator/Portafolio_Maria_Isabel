@@ -25,12 +25,6 @@
 </head>
 
 <body>
-    <!--Header
-    <div class="container">
-        <header>
-            <h1>Detalle</h1>
-        </header>
-    </div> -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="./index.html">El tiempo</a>
@@ -77,33 +71,46 @@
                 <thead>
                     <tr>
                         <th scope="col">Temperatura Mínima</th>
-                        <th scope="col">Temperatura máxima</th>
+                        <th scope="col">Temperatura Máxima</th>
                         <th scope="col">Promedio Semanal</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>22°C</td>
-                        <td>27°C</td>
-                        <td>25°C</td>
+                        <!--Temperaturas de la ciudad se mostrara dinámicamente-->
+                        <td  id="minTemp">14°C</td>
+                        <td  id="maxTemp">29°C</td>
+                        <td  id="avTemp">26°C</td>
                     </tr>
                 </tbody>
             </table>
+
             <!--TODO: Mensaje de resumen-->
-            <div class="border border-info rounded p-4">
-                <p>Resumen de datos semanales</p>
-            </div>
-        </section>
+            <div class="border border-info rounded p-4 " id="resumen"></div>
+
+                <table class="table">
+          <thead>
+            <tr id="titulosEstadisticas">
+              <!-- contenido se generará dinámicamente -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="filaEstadistica">
+              <!-- contenido se generará dinámicamente -->
+            </tr>
+          </tbody>
+        </table>
+        
+        </section> 
+        
     </main>
+
     <!--Footer-->
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
             <li class="nav-item"><a href="./detalle.html" class="nav-link px-2 text-body-secondary">Detalle</a></li>
-            <li class="nav-item"><a href="./cookies.html" class="nav-link px-2 text-body-secondary">Cookies</a>
-            </li>
-
-        </ul>
+                  </ul>
         <p class="text-center text-body-secondary">© 2025 M.Isabel y Ana M.Jaramillo company</p>
     </footer>
 </body>
